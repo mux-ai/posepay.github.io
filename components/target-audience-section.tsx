@@ -97,19 +97,7 @@ export function TargetAudienceSection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="grid md:grid-cols-3 gap-8 mt-16 text-center"
-        >
-          <div className="bg-white rounded-xl p-6 shadow-md">
-            <div className="text-4xl font-bold text-orange-500 mb-2">500K+</div>
-            <div className="text-gray-600">Photos Perfected</div>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-md">
-            <div className="text-4xl font-bold text-orange-500 mb-2">95%</div>
-            <div className="text-gray-600">Time Saved</div>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-md">
-            <div className="text-4xl font-bold text-orange-500 mb-2">4.9★</div>
-            <div className="text-gray-600">User Rating</div>
-          </div>
+        > 
         </motion.div>
       </div>
     </section>
